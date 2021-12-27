@@ -1,0 +1,33 @@
+.navbar-inverse {
+    background-color: var(--TransparentBlack) !important;
+    color: var(--White) !important;
+
+    margin-bottom: 20px !important;
+
+    border: none !important;
+}
+
+button.btn-info {
+    background-color: var(--Blue);
+    border: none;
+}
+
+.animedao-color {
+    background-color: var(--Blue);
+}
+
+:root {
+    --White     : #fff;
+    --DarkWhite : rgb(184, 182, 182);
+    --Blue: #7289DA;
+
+    --TransparentBlack : rgba(0, 0, 0, 0.473);
+
+    --TransparentWhite : rgba(255, 255, 255, 0.548);
+    --TransparentDarkWhite : rgba(184, 182, 182, 0.664);
+    --TransparentBlue : #7289dabe;
+
+
+    --Grey: #2C2F33;
+    --TransparentGrey: #2c2f338a;
+}

@@ -1,0 +1,52 @@
+<html>
+    <head>
+        <link href="./interface.css" rel="stylesheet">
+    </head>
+
+    <body>
+        <img id="bg-img" src="https://imgur.com/RoD1Ngi.png">
+
+        <form id="fileform">
+            <h1>
+                Select a image
+
+                <div id="filetypes">
+                    <h2>.jpeg</h2>
+                    <h2>.jpg</h2>
+                    <h2>.png</h2>
+                    <h2>.gif</h2>
+                    <h2>.webp</h2>
+                </div>
+            </h1>
+
+            <input
+                type="file"
+                id="fileinput"
+                class="hidden"
+                accept="image/png, image/gif, image/jpeg, image/jpg, , image/webp"
+            />
+            <label for="fileinput" class="button">Select Image</label>
+
+            <input type="submit" class="button" value="Save without cropping" />
+
+            <h3>Go to <a id="redirect" href="https://animedao.to">AnimeDao</a> to see the wallpaper</h3>
+            <h4>Want to suggest stuff? <a href="https://discord.gg/JMSAUWU7GB">Join my Discord</a></h4>
+
+            <div id="imagecropper">
+                <img class="displaySelectedImage">
+            </div>
+        </form>
+
+        <div class="buttons hideButtons">
+            <button class="cropSave">Crop & Save</button>
+
+            <h1>
+                Scroll to Zoom<br>
+            </h1>
+        </div>
+    </body>
+
+    <script src="./script.js"></script>
+    <link href="../cropperjs/dist/cropper.css" rel="stylesheet">
+    <script src="../cropperjs/dist/cropper.js"></script>
+</html>

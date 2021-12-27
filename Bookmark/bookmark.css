@@ -1,0 +1,117 @@
+.well a b {
+    color: white !important;
+}
+
+.animedao-color {
+    color: var(--White) !important;
+    background-color: var(--Blue) !important;
+
+    border-radius: 5px;
+}
+
+.well {
+    color: var(--Blue) !important;
+}
+
+.well {
+    background-color: var(--TransparentGrey) !important;
+    border: none !important;
+
+    transition: 0.5s;
+}
+
+.well:hover {
+    background: var(--TransparentBlue) !important;
+}
+
+.pagination li.active a {
+    background-color: var(--TransparentBlack) !important;
+    color: var(--White) !important;
+}
+
+.pagination > li > a {
+    background-color: var(--TransparentBlue) !important;
+    border-color: transparent !important;
+
+    color: var(--White);
+
+    margin: 3px;
+
+    border-radius: 5px;
+}
+
+hr {
+    border-top: 0 !important;
+}
+
+.btn-default {
+    background-color: var(--TransparentBlue) !important;
+    color: var(--White) !important;
+
+    border: none !important;
+}
+
+.dropdown-menu {
+    background-color: var(--TransparentBlack) !important;
+}
+
+.dropdown-menu li a {
+    color: var(--Blue) !important;
+    margin-top: 5px;
+}
+
+.col-xs-12 center button {
+    background-color: var(--TransparentBlue);
+    border: none;
+
+    transition: 0.5s;
+}
+
+.col-xs-12 center button:hover {
+    background-color: var(--TransparentBlack);
+}
+
+.col-xs-12 center a.btn-danger {
+    background-color: rgba(255, 0, 0, 0.568);
+    border: none;
+
+    transition: 0.5s;
+}
+
+.col-xs-12 center a.btn-danger:hover {
+    background-color: var(--TransparentBlack);
+    border: none;
+}
+
+.pull-right .btn-primary {
+    background-color: var(--TransparentBlue);
+    border: none;
+}
+
+.pull-right .btn-primary:hover {
+    background-color: var(--TransparentBlue);
+}
+
+.animedao-color2 {
+    color: var(--TransparentBlue) !important;
+}
+
+.navbar-nav li.active a {
+    background-color: var(--TransparentBlue);
+}
+
+:root {
+    --White     : #fff;
+    --DarkWhite : rgb(184, 182, 182);
+    --Blue: #7289DA;
+
+    --TransparentBlack : rgba(0, 0, 0, 0.473);
+
+    --TransparentWhite : rgba(255, 255, 255, 0.548);
+    --TransparentDarkWhite : rgba(184, 182, 182, 0.664);
+    --TransparentBlue : #7289dabe;
+
+
+    --Grey: #2C2F33;
+    --TransparentGrey: #2c2f338a;
+}

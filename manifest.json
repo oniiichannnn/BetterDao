@@ -1,0 +1,72 @@
+{
+    "name": "Animedao Extension",
+    "description": "Change AnimeDao theme, made by potsu",
+
+    "version": "1.0",
+    "manifest_version": 3,
+
+    "content_scripts": [
+        {
+            "matches": [ "https://animedao.to/view/*" ],
+            "js": [ "./Episode/episode.js" ],
+            "css": [ "./Episode/episode.css" ]
+        },
+        {
+            "matches": [ "https://animedao.to/" ],
+            "js": [ "./Home/home.js" ],
+            "css": [ "./Home/home.css" ]
+        },
+        {
+            "matches": [ "https://animedao.to/animelist/*" ],
+            "js": [ "./List/list.js" ],
+            "css": [ "./List/list.css" ]
+        },
+        {
+            "matches": [ "https://animedao.to/bookmarks" ],
+            "js": [ "./Bookmark/bookmark.js" ],
+            "css": [ "./Bookmark/bookmark.css" ]
+        },
+        {
+            "matches": [ "https://animedao.to/anime/*" ],
+            "js": [ "./Anime/anime.js" ],
+            "css": [ "./Anime/anime.css" ]
+        },
+        {
+            "matches": [ "https://animedao.to/search/?search*" ],
+            "js": [ "./Search/search.js" ],
+            "css": [ "./Search/search.css" ]
+        },
+
+        {
+            "matches": [ "https://animedao.to/*" ],
+            "js": [
+                "./Global/background.js",
+
+                "./Global/Comments/comments.js"
+            ],
+
+            "css": [
+                "./Global/Comments/comments.css",
+
+                "./Global/Navbar/navbar.css",
+
+                "./Global/ScrollTop.css"
+            ]
+        }
+    ],
+
+    "permissions": [
+        "storage",
+        "tabs"
+    ],
+
+    "action": {
+        "default_popup": "./Interface/interface.html"
+    },
+
+    "icons": {
+        "16": "./icon.png",
+        "48": "./icon.png",
+        "128": "./icon.png"
+    }
+}

@@ -1,0 +1,173 @@
+.row ul.nav-tabs li a {
+    background-color: var(--TransparentBlue);
+    border-color: var(--TransparentBlue);
+    color: white;
+    border-radius: 10px;
+}
+
+.row ul.nav-tabs li:hover > a {
+    background-color: var(--TransparentBlue) !important;
+}
+
+.ongoingtab .ongoingtitle h4 b {
+    color: white !important;
+}
+
+.ongoingtab .ongoingtitle h4 small {
+    color: var(--DarkWhite) !important;
+}
+
+.animedao-color {
+    color: var(--White) !important;
+    background-color: var(--Blue) !important;
+
+    border-radius: 5px;
+}
+
+.ongoingtab {
+    color: var(--Blue) !important;
+}
+
+.ongoingtab {
+    background-color: var(--TransparentGrey) !important;
+    border: none !important;
+
+    transition: 0.5s;
+}
+
+.well:hover {
+    background: var(--TransparentBlue) !important;
+}
+
+.pagination li.active a {
+    background-color: var(--TransparentBlack) !important;
+    color: var(--White) !important;
+}
+
+.pagination > li > a {
+    background-color: var(--TransparentBlue) !important;
+    border-color: transparent !important;
+
+    color: var(--White);
+
+    margin: 3px;
+
+    border-radius: 5px;
+}
+
+hr {
+    border-top: 0 !important;
+}
+
+.btn-default {
+    background-color: var(--TransparentBlue) !important;
+    color: var(--White) !important;
+
+    border: none !important;
+}
+
+.dropdown-menu {
+    background-color: var(--TransparentBlack) !important;
+}
+
+.dropdown-menu li a {
+    color: var(--Blue) !important;
+    margin-top: 5px;
+}
+
+.dropdown-menu li a span.glyphicon {
+   color: var(--White);
+}
+
+.col-xs-12 center button {
+    background-color: var(--TransparentBlue);
+    border: none;
+
+    transition: 0.5s;
+}
+
+.col-xs-12 center button:hover {
+    background-color: var(--TransparentBlack);
+}
+
+.col-xs-12 center a.btn-danger {
+    background-color: rgba(255, 0, 0, 0.568);
+    border: none;
+
+    transition: 0.5s;
+}
+
+.col-xs-12 center a.btn-danger:hover {
+    background-color: var(--TransparentBlack);
+    border: none;
+}
+
+.pull-right .btn-primary {
+    background-color: var(--TransparentBlue);
+    border: none;
+}
+
+.pull-right .btn-primary:hover {
+    background-color: var(--TransparentBlue);
+}
+
+.animeinfo-div {
+    border-bottom: 0 !important;
+    border-top: 0 !important;
+    background: transparent !important;
+}
+
+.glyphicon {
+    color: var(--Blue) !important;
+
+    border-radius: 5px;
+}
+
+.well {
+    background-color: var(--TransparentGrey) !important;
+    border: none !important;
+
+    margin-top: 5px;
+
+    padding: 5px;
+
+    transition: 0.3s;
+}
+
+.anime-title {
+    color: var(--White) !important;
+}
+
+.latestanime-subtitle {
+    color: var(--DarkWhite) !important;
+}
+
+.animeinfo-poster center img {
+    border: none;
+    border-radius: 5px;
+}
+
+.anime-countdown {
+    background-color: var(--TransparentBlack) !important;
+    border: none !important;
+}
+
+.col-xs-7 {
+    color: var(--White);
+}
+
+:root {
+    --White     : #fff;
+    --DarkWhite : rgb(184, 182, 182);
+    --Blue: #7289DA;
+
+    --TransparentBlack : rgba(0, 0, 0, 0.473);
+
+    --TransparentWhite : rgba(255, 255, 255, 0.548);
+    --TransparentDarkWhite : rgba(184, 182, 182, 0.664);
+    --TransparentBlue : #7289dabe;
+
+
+    --Grey: #2C2F33;
+    --TransparentGrey: #2c2f338a;
+}
